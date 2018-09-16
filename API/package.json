@@ -1,0 +1,30 @@
+{
+  "name": "employee_management_api",
+  "version": "1.0.0",
+  "description": "APIs for employee management app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jay3dec/EmployeeManagementApp.git"
+  },
+  "author": "Jay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jay3dec/EmployeeManagementApp/issues"
+  },
+  "homepage": "https://github.com/jay3dec/EmployeeManagementApp#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^4.1.1"
+  },
+  "bin": {
+    "sequelize": "./node_modules/sequelize-cli/lib/sequelize"
+  }
+}
